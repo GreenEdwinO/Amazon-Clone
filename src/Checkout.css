@@ -5,6 +5,10 @@
   height: max-content;
 }
 
+.checkout__left>div {
+  margin-left: 2rem;
+}
+
 .checkout__ad {
   width: 100%;
   margin-bottom: 10px;
