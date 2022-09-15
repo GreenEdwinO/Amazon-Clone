@@ -5,9 +5,6 @@ import { useStateValue } from './StateProvider';
 export const Product = (props) => {
   const [{ basket }, dispatch] = useStateValue();
 
-
-  console.log('this is your basket', basket);
-
   const addToBasket = () => {
     //this dispatch items into the data layer (via reducer.js)
     dispatch({

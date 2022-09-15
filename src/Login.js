@@ -1,17 +1,24 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import { auth } from "./firebase"
 import "./Login.css"
 
+
 function Login() {
+  const history = useHistory();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const signIn = e => {
     e.preventDefault();
-
     //FIRE BASE LOGIN COMES IN HERE
 
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then(auth => {
+        history.push('/')
+      })
+      .catch(error => alert(error.message))
   }
 
   const register = e => {
@@ -21,9 +28,11 @@ function Login() {
     auth
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
-    // Successfully created user email and password
-      console.log(auth);
-    })
+        // Successfully created user email and password
+        if (auth) {
+          history.push('/')
+        }
+      })
       .catch(error => alert(error.message))
   }
 
