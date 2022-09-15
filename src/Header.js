@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 
-
 function Header() {
 
   const [{ basket, user }, dispatch] = useStateValue();
@@ -34,7 +33,7 @@ function Header() {
       <div className="header__nav">
         <Link to={!user && './login'}>
           <div onClick={handleAuth} className="header__option">
-            <span className="header__optionLineOne">Hello, Guest</span>
+            <span className="header__optionLineOne">Hello, {user?.email}</span>
             <span
               className="header__optionLineTwo">{user ? 'Sign Out' : 'Sign In'}
             </span>

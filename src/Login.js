@@ -21,20 +21,20 @@ function Login() {
       .catch(error => alert(error.message))
   }
 
-  const register = e => {
-    e.preventDefault();
+  // const register = e => {
+  //   e.preventDefault();
 
-    //FIRE BASE USER REGISTERATION COMES IN HERE
-    auth
-      .createUserWithEmailAndPassword(email, password)
-      .then((auth) => {
-        // Successfully created user email and password
-        if (auth) {
-          history.push('/')
-        }
-      })
-      .catch(error => alert(error.message))
-  }
+  //   //FIRE BASE USER REGISTERATION COMES IN HERE
+  //   auth
+  //     .createUserWithEmailAndPassword(email, password)
+  //     .then((auth) => {
+  //       // Successfully created user email and password
+  //       if (auth) {
+  //         history.push('/')
+  //       }
+  //     })
+  //     .catch(error => alert(error.message))
+  // }
 
   return (
     <div className='login'>
@@ -73,10 +73,11 @@ function Login() {
         <p>
           By Signing-in you agree to the Terms and Conditions of Use & Sale. Please see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
         </p>
-
-        <button
-          onClick={register}
-          className='register-button'>Create an Account</button>
+        <Link to="/register">
+          <button
+            // onClick={register}
+            className='register-button'>Create an Account</button>
+        </Link>
       </div>
     </div>
   )

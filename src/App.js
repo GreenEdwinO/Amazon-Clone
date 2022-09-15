@@ -7,6 +7,7 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import { auth } from "./firebase"
 import { useStateValue } from "./StateProvider";
+import Register from "./Register";
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
       <div className="App">
 
         <Switch>
+          <Route path="/register">
+            <Register />
+          </Route>
           <Route path="/login">
             <Login />
           </Route>
