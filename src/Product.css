@@ -12,6 +12,10 @@
   z-index: 1;
 }
 
+.product:hover {
+  box-shadow: 3px 1px 5px 6px gray;
+}
+
 .product__info {
   height: 100px;
   margin-bottom: 15px;
@@ -23,14 +27,15 @@
 
 .product__rating {
   display: flex;
-} 
+}
 
-.product > img {
+.product>img {
   max-height: 200px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
 }
+
 
 .product>button {
   background: #f0c14b;

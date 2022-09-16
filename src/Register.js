@@ -74,13 +74,13 @@ function Register() {
         </form>
 
         <p>
-          By Registering you agree to the Terms and Conditions of Use & Sale. Please see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
+          By Registering you agree to the <a href="/">Terms and Conditions of Use & Sale</a>. Please see our <a href="/">Privacy Notice</a>, our <a href="/">Cookies Notice</a> and our <a href="/">Interest-Based Ads Notice</a>.
         </p>
 
         <button
           type='submit'
           onClick={register}
-          className='register-button'>Create an Account</button>
+          className='register-button'>Create Account</button>
 
         <Link to='/'>
           <button

@@ -71,8 +71,9 @@ function Login() {
         </form>
 
         <p>
-          By Signing-in you agree to the Terms and Conditions of Use & Sale. Please see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
+          By signing-in you agree to the <a href="/">Terms and Conditions of Use & Sale</a>. Please see our <a href="/">Privacy Notice</a>, our <a href="/">Cookies Notice</a> and our <a href="/">Interest-Based Ads Notice</a>.
         </p>
+        <h5>Don't have an account? Create one.</h5>
         <Link to="/register">
           <button
             // onClick={register}
