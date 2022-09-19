@@ -1,5 +1,5 @@
-Sep 19, 2022 4:41:22 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
-INFO: Started WebSocket server on ws://localhost:52182
+Sep 19, 2022 7:13:25 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://localhost:49869
 API endpoint: http://localhost:8080
 If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
 
@@ -7,153 +7,85 @@ If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment
 
 Dev App Server is now running.
 
-Sep 19, 2022 4:44:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:03:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:44:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:03:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:44:07 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+Sep 19, 2022 8:03:23 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
 INFO: Connected to new websocket client
-Sep 19, 2022 4:53:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:03 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:04 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:10 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:18 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
-Sep 19, 2022 4:53:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:20 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
-Sep 19, 2022 4:53:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:28 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:28 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:31 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:36 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:38 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:38 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected HTTP/2 connection.
-Sep 19, 2022 4:53:41 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:43 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:50 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:50 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:05:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:53:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:03 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:03 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:25 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:54:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:55:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Sep 19, 2022 8:06:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:04 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
-Sep 19, 2022 4:57:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:05 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
-Sep 19, 2022 4:57:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:28 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 4:57:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:29 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:36 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:38 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:00:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:06:45 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:06:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:06:49 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Sep 19, 2022 5:21:06 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected

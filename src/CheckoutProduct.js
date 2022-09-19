@@ -30,7 +30,10 @@ function CheckoutProduct(props) {
             <p>⭐</p>
           ))}
         </div>
-        <button onClick={removeFromCart}>Remove From Cart</button>
+        {!props.hideButton && (
+          <button onClick={removeFromCart}>Remove From Cart</button>
+        )
+        }
       </div>
     </div>
   )
