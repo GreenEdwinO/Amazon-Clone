@@ -12,6 +12,7 @@ import Register from "./Register";
 import Payment from "./Payment"
 import { loadStripe } from "@stripe/stripe-js"
 import { Elements } from "@stripe/react-stripe-js"
+import Footer from "./Footer";
 
 const promise = loadStripe('pk_test_51LidQnAHXIkEQ0eT8nzxJECIkC2JUKRwjDtiUZb1v13FPqnHwVau9f7K7mnuwW6J4x9NUrzVRMjI2d6Cg9nGpmRa00w7d7S5VL');
 
@@ -40,7 +41,6 @@ function App() {
   }, [])
 
   return (
-    //BEM
     <Router>
       <div className="App">
 
@@ -58,6 +58,7 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Footer />
           </Route>
           <Route path="/payment">
             <Header />
@@ -68,6 +69,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

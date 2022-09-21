@@ -1,0 +1,70 @@
+.section-p1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px 40px;
+}
+
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logu {
+  margin-bottom: 18px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: #465b52;
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border-radius: 4px;
+  max-width: 130px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+footer .install img {
+  margin: 0 0 15px 0;
+}
+
+.install>p {
+  font-weight: 499;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
