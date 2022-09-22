@@ -64,7 +64,15 @@ footer a:hover {
   color: #088178;
 }
 
+footer .copyright>a {
+  margin-right: 16px;
+}
+
 footer .copyright {
   width: 100%;
   text-align: center;
+}
+
+footer .copyright>p {
+  margin-top: 10px;
 }

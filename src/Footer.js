@@ -50,7 +50,7 @@ function Footer() {
           </Link>
           <a href="#">Privacy Policy</a>
           <a href="#">Teams & Conditions</a>
-          <a href="#">Contact Us</a>
+          <a href="https://greenojegwo.netlify.app/contact.html">Contact Us</a>
         </div>
 
         <div className="col install">
@@ -65,7 +65,14 @@ function Footer() {
         </div>
 
         <div className="copyright">
-          <p>© 2022. <a href="http://greenojegwo.netlify.app/">Green Edwin Ojegwo</a></p>
+
+          <a href="#">Conditions of Use</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Interest-Based Ads</a>
+
+
+
+          <p>© 2022. <a href="http://greenojegwo.netlify.app/">Green Edwin</a></p>
         </div>
       </div>
     </footer>

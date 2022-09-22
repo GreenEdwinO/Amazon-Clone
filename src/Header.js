@@ -58,9 +58,10 @@ function Header() {
             className="header__optionLineOne">
             Your
           </span>
+          <a href="https://www.primevideo.com/">
           <span
             className="header__optionLineTwo">
-            Prime</span>
+            Prime</span></a>
         </div>
         <Link to="/Checkout">
           <div className="header__optionBasket">
