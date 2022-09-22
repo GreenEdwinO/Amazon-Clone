@@ -70,7 +70,7 @@ function Footer() {
           <a href="#">Privacy Notice</a>
           <a href="#">Interest-Based Ads</a>
 
-          <p>© 2022. Amazon Clone. <a href="http://greenojegwo.netlify.app/">Green Edwin</a></p>
+          <p>© 2022. Amazon clone made by <a href="http://greenojegwo.netlify.app/">Green Edwin</a></p>
         </div>
       </div>
     </footer>
