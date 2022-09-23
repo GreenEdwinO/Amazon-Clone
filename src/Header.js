@@ -7,13 +7,17 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 
 function Header() {
-
   const [{ basket, user }, dispatch] = useStateValue();
+  const [clicked, setClicked] = React.useState(false);
 
   const handleAuth = () => {
     if (user) {
       auth.signOut();
     }
+  }
+
+  const handleClick = () => {
+    setClicked(clicked => !clicked)
   }
 
   return (
@@ -30,7 +34,7 @@ function Header() {
           className="header__searchIcon" />
       </div>
 
-      <div className="header__nav">
+      <div id="header__nav" className={clicked ? "header__nav active" : "header__nav"}>
         <Link to={!user && './login'}>
           <div onClick={handleAuth} className="header__option">
             <span className="header__optionLineOne">Hello, {!user ? "Guest" : user.email}</span>
@@ -41,7 +45,7 @@ function Header() {
         </Link>
 
         <Link to='/orders'>
-          <div className="header__option">
+          <div className="header__option" >
             <span
               className="header__optionLineOne">
               Returns
@@ -59,16 +63,21 @@ function Header() {
             Your
           </span>
           <a href="https://www.primevideo.com/">
-          <span
-            className="header__optionLineTwo">
-            Prime</span></a>
+            <span
+              className="header__optionLineTwo">
+              Prime</span></a>
         </div>
-        <Link to="/Checkout">
-          <div className="header__optionBasket">
-            <ShoppingBasketIcon />
-            <span className="header__optionLineTwo header_basketCount">{basket?.length}</span>
-          </div>
-        </Link>
+
+      </div>
+      <Link to="/Checkout">
+        <div className="header__optionBasket">
+          <ShoppingBasketIcon />
+          <span className="header__optionLineTwo header_basketCount">{basket?.length}</span>
+        </div>
+      </Link>
+      <div id="mobile" onClick={handleClick}>
+        <i id="bar"
+          className={clicked ? "far fa-times" : "fas fa-outdent"}></i>
       </div>
     </div>
   )

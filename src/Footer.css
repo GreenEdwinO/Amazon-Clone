@@ -76,3 +76,15 @@ footer .copyright {
 footer .copyright>p {
   margin-top: 4px;
 }
+
+@media (max-width: 799px) {
+  .section-p1 {
+    padding: 20px 8px;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px 8px;
+  }
+}
