@@ -78,6 +78,9 @@ function Header() {
       <div id="mobile" onClick={handleClick}>
         <i id="bar"
           className={clicked ? "far fa-times" : "fas fa-outdent"}></i>
+        {/* <i className="fas fa-outdent"></i>
+        <i className="far fa-times"></i> */}
+
       </div>
     </div>
   )

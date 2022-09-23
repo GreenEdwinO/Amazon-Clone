@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 40px 40px;
+  padding: 60px 40px 20px 40px;
 }
 
 
@@ -55,6 +55,11 @@ footer .install img {
   margin: 0 0 15px 0;
 }
 
+footer .install img:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: .3s;
+}
+
 .install>p {
   font-weight: 499;
 }
@@ -77,14 +82,19 @@ footer .copyright>p {
   margin-top: 4px;
 }
 
+footer .copyright>.green a {
+  font-weight: 550;
+  color: green;
+}
+
 @media (max-width: 799px) {
   .section-p1 {
-    padding: 20px 8px;
+    padding: 40px 8px;
   }
 }
 
 @media (max-width: 477px) {
   .section-p1 {
-    padding: 20px 8px;
+    padding: 16px 8px;
   }
 }

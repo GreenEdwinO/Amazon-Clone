@@ -15,14 +15,14 @@ function Home() {
           <Product
             id="1"
             title='Computers & Accessories'
-            price={29.99}
-            rating={4}
+            price={229.99}
+            rating={5}
             image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" />
           <Product
             id="2"
             title='New arrivals in Toys'
             price={19.99}
-            rating={3}
+            rating={5}
             image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg"
           />
           <Product
@@ -45,14 +45,14 @@ function Home() {
           <Product
             id="3"
             title='For your Fitness Needs'
-            price={199.99}
+            price={1999.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg"
           />
           <Product
             id="4"
             title='Create with strip lights'
-            price={129.99}
+            price={99.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg"
           />
