@@ -92,12 +92,13 @@ function Payment() {
         {/* Payment section delivery address */}
         <div className="payment__section">
           <div className="payment__title">
-            <h3>Delivery Address</h3>
+            <h3>Email Address</h3>
+            {/* <h3>DeEmaillivery Address</h3> */}
           </div>
           <div className="payment__address">
             <p>{user?.email}</p>
-            <p>123 Reason street</p>
-            <p>Port Harcourt, Nigeria.</p>
+            {/* <p>123 Reason street</p>
+            <p>Port Harcourt, Nigeria.</p> */}
           </div>
         </div>
 

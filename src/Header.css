@@ -122,13 +122,21 @@
   }
 
   .header__optionBasket {
-    padding-right: 6px;
     padding-left: 6px;
   }
 
   #mobile {
     display: block;
 
+  }
+
+  .header__optionLineOne {
+    font-size: 12px;
+  }
+
+  .header__optionLineTwo,
+  .header__optionLineTwo>a {
+    font-size: 18px;
   }
 
   .header__option span {
@@ -139,6 +147,7 @@
 
   #bar {
     padding-right: 16px;
+    font-size: 1.5rem;
   }
 
   #header__nav .header__option {

@@ -39,11 +39,12 @@
   max-width: 400px;
   border: 1px solid;
   padding: 16px;
+  border-radius: 4px;
 }
 
 .payment__details .payment__priceContainer>h3 {
   margin: 20px auto;
-  color: blue;
+  color: #111;
 }
 
 .payment__details>form>div>button {
@@ -57,4 +58,20 @@
   border-color: #a88734 #9c7e31 #845a29;
   color: #111;
   cursor: pointer;
+}
+
+/* /payment */
+
+@media (max-width: 477px) {
+  .payment__container>h1 {
+    font-size: 1.5rem;
+  }
+
+  .payment__section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 10px;
+    justify-content: center;
+  }
 }
