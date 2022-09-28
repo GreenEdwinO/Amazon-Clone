@@ -5,7 +5,6 @@ import { useStateValue } from './StateProvider';
 function CheckoutProduct(props) {
   const [{ basket }, dispatch] = useStateValue();
 
-
   const removeFromCart = () => {
     // removing the item(s) from Cart
     dispatch({

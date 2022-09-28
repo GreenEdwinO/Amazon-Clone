@@ -10,7 +10,7 @@ function Footer() {
         <div className="col">
           <img className="logu" src="https://p.kindpng.com/picc/s/17-172380_transparent-white-amazon-logo-png-amazon-fba-logo.png" style={{ width: "100px", borderRadius: "10px" }} alt="" />
           <h4>Head Office</h4>
-          <p><strong>Addresss:</strong> 18 Street, D/Line, PH</p>
+          <p><strong>Addresss:</strong> 18 Street, D/Line, PH, Rivers State</p>
           <p><strong>Phone:</strong> +23480123456789</p>
           <p><strong>Hours:</strong> 09:00 - 18:00, Mon - Sat</p>
           <div className="follow">

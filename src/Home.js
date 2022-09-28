@@ -3,6 +3,7 @@ import "./Home.css"
 import Product from "./Product.js"
 
 function Home() {
+
   return (
     <div className="home">
       <div className="home__container">
@@ -10,27 +11,26 @@ function Home() {
           className='home__image'
           src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt="" />
 
-
         <div className="home__row">
           <Product
             id="1"
             title='Computers & Accessories'
             price={229.99}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" />
+            image="https://api.time.com/wp-content/uploads/2017/05/laptops.jpg" />
           <Product
             id="2"
-            title='New arrivals in Toys'
+            title='Gastody™ - Chemical Resistant Gloves Set of 2 Pairs -S-M-L-XL-XXL, Gloves with High Protection for Your Hands'
             price={19.99}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg"
+            image="https://m.media-amazon.com/images/I/71OQL-cSWZL._AC_UL320_.jpg"
           />
           <Product
             id="22"
-            title='Fasionable Dresses'
-            price={22.99}
+            title='PRP® POWDER PRP® Powder for hydrocarbon spill clean up -by UniRem. From:'
+            price={24.99}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_1X._SY304_CB626369146_.jpg"
+            image="https://unireminc.com/wp-content/uploads/2016/01/prp-powder-new-1-359x283.png"
           />
           <Product
             id="222"
