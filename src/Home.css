@@ -37,10 +37,14 @@
 
   .home__image {
     margin-bottom: -80px;
+    zoom: 2.5;
   }
 }
 
 @media (max-width: 477px) {
+  .home__image {
+    zoom: 0;
+  }
 
   .home__row {
     padding: .5rem 1rem;
@@ -49,4 +53,5 @@
     justify-content: center;
     align-items: center;
   }
+
 }

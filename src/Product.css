@@ -43,7 +43,7 @@
 .product > img {
   max-height: 150px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   margin-bottom: 15px;
 }
 
