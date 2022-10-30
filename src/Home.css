@@ -20,18 +20,30 @@
   margin-right: 5px;
 }
 
-@media (max-width: 677px) {
+@media (max-width: 877px) {
 
   .home {
-    max-width: 100%;
+    width: 100%;
+  }
+
+  .home__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    /* padding: 10px; */
+    /* flex-wrap: nowrap; */
+    margin-top: 2rem;
   }
 
   .home__image {
     margin-bottom: -80px;
   }
+}
+
+@media (max-width: 477px) {
 
   .home__row {
-    padding: auto 1rem;
+    padding: .5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

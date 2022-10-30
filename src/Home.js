@@ -17,7 +17,7 @@ function Home() {
             title='Computers & Accessories'
             price={229.99}
             rating={5}
-            image="https://api.time.com/wp-content/uploads/2017/05/laptops.jpg" />
+            image="https://m.media-amazon.com/images/I/71FNGAVwvbL._AC_UL320_.jpg" />
           <Product
             id="2"
             title='Gastody™ - Chemical Resistant Gloves Set of 2 Pairs -S-M-L-XL-XXL, Gloves with High Protection for Your Hands'

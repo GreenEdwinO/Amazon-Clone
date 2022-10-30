@@ -8,9 +8,10 @@ function Footer() {
     <footer>
       <div className="section-p1">
         <div className="col">
-          <img className="logu" src="https://p.kindpng.com/picc/s/17-172380_transparent-white-amazon-logo-png-amazon-fba-logo.png" style={{ width: "100px", borderRadius: "10px" }} alt="" />
+          <a href="#" className="logu"> <img className="logu"
+            src="https://p.kindpng.com/picc/s/17-172380_transparent-white-amazon-logo-png-amazon-fba-logo.png" style={{ width: "100px", borderRadius: "10px" }} alt="Netflix Logo" /></a>
           <h4>Head Office</h4>
-          <p><strong>Addresss:</strong> 18 Street, D/Line, PH, Rivers State</p>
+          <p><strong>Addresss:</strong> 18 Street, D/Line, PH</p>
           <p><strong>Phone:</strong> +23480123456789</p>
           <p><strong>Hours:</strong> 09:00 - 18:00, Mon - Sat</p>
           <div className="follow">
@@ -57,11 +58,11 @@ function Footer() {
           <h4>Install the App</h4>
           <p>From App Store or Google Play</p>
           <div className="row">
-            <a href="https://apps.apple.com/us/app/amazon-shopping/id297606951"><img src="https://www.pngmart.com/files/10/Download-On-The-App-Store-PNG-Image.png" alt="" /></a>
-            <a href="https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping&hl=en&gl=US"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_GSGDneF42Y3lPYO4HHsKm8pyRHyWRJM7er0t0T381hvQAc_ii7Hme_O_Ym6G4fSbAg&usqp=CAU" alt="" /></a>
+            <a href="https://apps.apple.com/us/app/netflix/id363590051"><img src="https://www.pngmart.com/files/10/Download-On-The-App-Store-PNG-Image.png" alt="Apple Store" /></a>
+            <a href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=en&gl=US"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_GSGDneF42Y3lPYO4HHsKm8pyRHyWRJM7er0t0T381hvQAc_ii7Hme_O_Ym6G4fSbAg&usqp=CAU" alt="Google Play Store" /></a>
           </div>
           <p>Secure Payment Gateways</p>
-          <img src="https://www.kindpng.com/picc/m/52-524533_secure-payment-png-shopify-guaranteed-safe-checkout-transparent.png" style={{ width: "300px" }} alt="" />
+          <img src="https://www.kindpng.com/picc/m/52-524533_secure-payment-png-shopify-guaranteed-safe-checkout-transparent.png" style={{ width: "270px" }} alt="Secure Payment System" />
         </div>
 
         <div className="copyright">
@@ -70,7 +71,7 @@ function Footer() {
           <a href="#">Privacy Notice</a>
           <a href="#">Interest-Based Ads</a>
 
-          <p className='green'>© 2022. Amazon Clone Build By <a href="http://greenojegwo.netlify.app/">Green Edwin</a></p>
+          <p className='green'>© 2022. Netflix Clone. Built By <a href="http://greenojegwo.netlify.app/">Green Edwin</a></p>
         </div>
       </div>
     </footer>
